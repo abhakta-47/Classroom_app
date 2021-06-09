@@ -5,7 +5,7 @@ const io = require('socket.io')(server)
 
 const {v4 : uuidv4} = require('uuid')
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8000
 
 app.set('view engine','ejs');
 app.use(express.static('public'))
